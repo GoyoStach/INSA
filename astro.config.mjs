@@ -6,19 +6,36 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'INSA',
+			defaultLocale: 'fr',
+			locales: {
+				fr: {
+					label: 'Français',
+					lang: 'fr',
+				},
+				en: {
+					label: 'English',
+					lang: 'en',
+					dir: 'ltr',
+				},
+			},
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
+					label: 'MNSR',
+					translations: {
+						fr: 'MNSR',
+						en: 'MNSR',
+					},
+					autogenerate: { directory: 'mnsr' },
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Git',
+					translations: {
+						fr: 'Git',
+						en: 'Git',
+					},
+					autogenerate: { directory: 'git' },
 				},
 			],
 		}),
