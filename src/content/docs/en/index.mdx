@@ -2,14 +2,19 @@
 title: INSA
 description: System & Network Level-up Training
 template: splash
-hero:
-  tagline: System & Network Level-up
-  actions:
-    - text: Access MNSR
-      link: /en/mnsr/
-      icon: right-arrow
-    - text: Learn Git
-      link: /en/git/
-      icon: rocket
-      variant: primary
 ---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+  <LinkCard 
+    title="MNSR - Systems & Networks" 
+    description="System administration, network configuration and IT security"
+    href="/en/mnsr/" 
+  />
+  <LinkCard 
+    title="Git - Version Control" 
+    description="Version management and collaborative development"
+    href="/en/git/" 
+  />
+</CardGrid>

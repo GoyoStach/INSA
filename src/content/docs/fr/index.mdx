@@ -1,21 +1,20 @@
 ---
-
 title: INSA
 description: Formation Mise à Niveau Système & Réseau
 template: splash
-hero:
-  tagline: Mise à Niveau Système & Réseau
-  actions:
-    - text: Accéder à MNSR
-      link: /fr/mnsr/
-      icon: right-arrow
-    - text: Apprendre Git
-      link: /fr/git/
-      icon: rocket
-      variant: primary
 ---
-import { LinkCard } from '@astrojs/starlight/components'
 
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
-
-<LinkCard title="Authoring Markdown" href="/fr/mnsr/" />
+<CardGrid>
+  <LinkCard 
+    title="MNSR - Systèmes & Réseaux" 
+    description="Administration système, configuration réseau et sécurité informatique"
+    href="/fr/mnsr/" 
+  />
+  <LinkCard 
+    title="Git - Contrôle de Version" 
+    description="Gestion de versions et développement collaboratif"
+    href="/fr/git/" 
+  />
+</CardGrid>
