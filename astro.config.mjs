@@ -36,60 +36,69 @@ export default defineConfig({
 							},
 							link: '/mnsr/introduction/' 
 						},
-						{ 
-							label: 'Système et Boîte Noire', 
-							translations: {
-								fr: 'Système et Boîte Noire',
-								en: 'System and Black Box',
-							},
-							link: '/mnsr/systeme-et-boite-noire/' 
-						},
 						{
-							label: 'Composants PC',
+							label: 'Cours 1',
 							translations: {
-								fr: 'Composants PC',
-								en: 'PC Components',
+								fr: 'Cours 1',
+								en: 'Course 1',
 							},
 							items: [
 								{ 
-									label: 'Carte Mère', 
+									label: 'Système et Boîte Noire', 
 									translations: {
-										fr: 'Carte Mère',
-										en: 'Motherboard',
+										fr: 'Système et Boîte Noire',
+										en: 'System and Black Box',
 									},
-									link: '/mnsr/composants-pc/motherboard/' 
+									link: '/mnsr/cours-1/systeme-et-boite-noire/' 
 								},
-								{ 
-									label: 'Processeur (CPU)', 
+								{
+									label: 'Composants PC',
 									translations: {
-										fr: 'Processeur (CPU)',
-										en: 'Processor (CPU)',
+										fr: 'Composants PC',
+										en: 'PC Components',
 									},
-									link: '/mnsr/composants-pc/cpu/' 
-								},
-								{ 
-									label: 'Mémoire (RAM)', 
-									translations: {
-										fr: 'Mémoire (RAM)',
-										en: 'Memory (RAM)',
-									},
-									link: '/mnsr/composants-pc/ram/' 
-								},
-								{ 
-									label: 'Stockage', 
-									translations: {
-										fr: 'Stockage',
-										en: 'Storage',
-									},
-									link: '/mnsr/composants-pc/storage/' 
-								},
-								{ 
-									label: 'BIOS', 
-									translations: {
-										fr: 'BIOS',
-										en: 'BIOS',
-									},
-									link: '/mnsr/composants-pc/bios/' 
+									items: [
+										{ 
+											label: 'Carte Mère', 
+											translations: {
+												fr: 'Carte Mère',
+												en: 'Motherboard',
+											},
+											link: '/mnsr/cours-1/composants-pc/motherboard/' 
+										},
+										{ 
+											label: 'Processeur (CPU)', 
+											translations: {
+												fr: 'Processeur (CPU)',
+												en: 'Processor (CPU)',
+											},
+											link: '/mnsr/cours-1/composants-pc/cpu/' 
+										},
+										{ 
+											label: 'Mémoire (RAM)', 
+											translations: {
+												fr: 'Mémoire (RAM)',
+												en: 'Memory (RAM)',
+											},
+											link: '/mnsr/cours-1/composants-pc/ram/' 
+										},
+										{ 
+											label: 'Stockage', 
+											translations: {
+												fr: 'Stockage',
+												en: 'Storage',
+											},
+											link: '/mnsr/cours-1/composants-pc/storage/' 
+										},
+										{ 
+											label: 'BIOS', 
+											translations: {
+												fr: 'BIOS',
+												en: 'BIOS',
+											},
+											link: '/mnsr/cours-1/composants-pc/bios/' 
+										},
+									],
 								},
 							],
 						},
@@ -115,6 +124,55 @@ export default defineConfig({
 										en: 'Complete Binary Course',
 									},
 									link: '/mnsr/cours-2/cours_complet_binaire/' 
+								},
+								{ 
+									label: 'Linux Filesystem', 
+									translations: {
+										fr: 'Linux Filesystem',
+										en: 'Linux Filesystem',
+									},
+									link: '/mnsr/cours-2/linux_filesystem/' 
+								},
+								{ 
+									label: 'Registry vs Linux Config', 
+									translations: {
+										fr: 'Registry vs Linux Config',
+										en: 'Registry vs Linux Config',
+									},
+									link: '/mnsr/cours-2/registry_vs_linux_config/' 
+								},
+								{ 
+									label: 'Variables d\'Environnement', 
+									translations: {
+										fr: 'Variables d\'Environnement',
+										en: 'Environment Variables',
+									},
+									link: '/mnsr/cours-2/env_variables/' 
+								},
+							],
+						},
+						{
+							label: 'Cours 3',
+							translations: {
+								fr: 'Cours 3',
+								en: 'Course 3',
+							},
+							items: [
+								{ 
+									label: 'Utilisateurs & Groupes', 
+									translations: {
+										fr: 'Utilisateurs & Groupes',
+										en: 'Users & Groups',
+									},
+									link: '/mnsr/cours-3/user_group_management/' 
+								},
+								{ 
+									label: 'Exercice Librairie', 
+									translations: {
+										fr: 'Exercice Librairie',
+										en: 'Library Exercise',
+									},
+									link: '/mnsr/cours-3/library_exercise/' 
 								},
 							],
 						},
