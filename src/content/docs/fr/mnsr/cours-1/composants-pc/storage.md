@@ -3,6 +3,71 @@ title: "Storage (SSD/HDD)"
 description: "Your digital hoarder's paradise - holds everything you'll never delete"
 ---
 
+# HDD
+Created : 📅1st September 2025 
+Modified: 📅Sunday 21st September 2025 14:24 
+
+![HDD](/src/assets/HDD.png)
+# 💿 Hard Drive - Le Bibliothécaire Méticuleux
+
+## 📝 Description
+
+Le Hard Drive est le gardien méticuleux de tous les secrets et souvenirs de l'ordinateur. Organisé comme personne, il classe et range chaque fichier dans son système personnel complexe. Plus lent que la RAM mais infiniment plus fiable, il n'oublie jamais rien ! Il peut être un peu grognon quand on lui demande de retrouver quelque chose rapidement, mais il finit toujours par livrer l'information demandée. Fier de sa collection grandissante de données !
+
+**Personnalité :** Méthodique, fiable, un peu lent, fier de sa collection **Phrase fétiche :** "Patience, je retrouve ça dans mes archives..."
+
+## 🤝 Interactions avec les autres composants
+
+### Avec le CPU 🧠
+
+- **Relation :** Archiviste consciencieux mais parfois exaspérant
+- **Interaction :** "CPU, tes données sont en sécurité chez moi, mais laisse-moi le temps de les chercher !"
+- Source principale de programmes et données permanentes
+
+### Avec la RAM 💾
+
+- **Relation :** Collègue complémentaire avec une pointe de jalousie
+- **Interaction :** "Tu es rapide RAM, mais moi je garde tout pour l'éternité !"
+- Collabore pour la mémoire virtuelle et le cache
+
+### Avec la Carte Mère 🏠
+
+- **Relation :** Locataire discret et bien connecté
+- **Interaction :** "Merci pour ces connexions SATA, maman !"
+- Utilise les ports et l'alimentation fournis
+
+### Avec le BIOS ⚡
+
+- **Relation :** Dépositaire du trésor principal
+- **Interaction :** "Sage BIOS, le système d'exploitation est ici, dans mon secteur de boot !"
+- Héberge les fichiers de démarrage essentiels
+
+## ⚙️ Utilité dans le groupe
+
+- **Rôle principal :** Archiviste permanent et gardien de la mémoire
+    
+- **Responsabilités :**
+    
+    - Stocker de manière permanente tous les programmes et données
+    - Conserver le système d'exploitation et les fichiers utilisateur
+    - Gérer l'organisation et l'indexation des fichiers
+    - Servir de mémoire de sauvegarde pour la RAM
+    - Maintenir l'intégrité des données sur le long terme
+- **Capacités spéciales :**
+    
+    - Mémoire permanente (résiste aux coupures de courant)
+    - Énorme capacité de stockage
+    - Organisation hiérarchique sophistiquée (dossiers/fichiers)
+    - Systèmes de sauvegarde et récupération
+    - Évolutivité (peut être remplacé ou complété)
+- **Faiblesses :**
+    
+    - Vitesse d'accès plus lente que la RAM
+    - Sensible aux chocs mécaniques (pour les HDD traditionnels)
+    - Peut se fragmenter au fil du temps
+    - Point de défaillance pour les données importantes
+    - Durée de vie limitée (usure mécanique ou électronique)
+
 ## 💽 1. **Rôle du disque dur (HDD/SSD)**
 
 Un **disque dur** (ou SSD) est un **périphérique de stockage permanent**. Contrairement à la RAM, il **conserve les données même sans alimentation**.

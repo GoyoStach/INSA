@@ -3,88 +3,69 @@ title: "Motherboard"
 description: "The PC's nervous system - connects everything and judges your cable management"
 ---
 
-## 🧩 **Rôle principal de la carte mère**
+# Motherboard
+Created : 📅1st September 2025 
+Modified: 📅Sunday 21st September 2025 14:24 
 
-La carte mère (ou **motherboard**) est une **plaque de circuits imprimés** qui :
+![Motherboard](/src/assets/Motherboard.png)
+# 🏠 Carte Mère - La Maman Organisatrice
 
-1. **Connecte** tous les composants (CPU, RAM, GPU, SSD, etc.)
+## 📝 Description
+
+La Carte Mère est le cœur chaleureux et organisé de la famille PC. Toujours préoccupée par le bien-être de tous ses "enfants" composants, elle s'assure que chacun ait sa place et puisse communiquer avec les autres. Multitâche accomplie, elle gère les connexions, l'alimentation et les communications avec une patience infinie. Elle a parfois tendance à être un peu possessive avec ses composants !
+
+**Personnalité :** Maternelle, organisée, diplomatique, légèrement possessive **Phrase fétiche :** "Mes petits, vous avez tous votre place ici !"
+
+## 🤝 Interactions avec les autres composants
+
+### Avec le CPU 🧠
+
+- **Relation :** Mère protectrice envers son fils prodige
+- **Interaction :** "Mon petit CPU, je te donne toute la puissance dont tu as besoin"
+- Fournit le socket parfait et toutes les connexions nécessaires
+
+### Avec la RAM 💾
+
+- **Relation :** Hôtesse attentive
+- **Interaction :** "RAM, mes slots sont spécialement conçus pour toi !"
+- Offre les emplacements DIMM et les canaux de communication
+
+### Avec le BIOS ⚡
+
+- **Relation :** Cohabitation harmonieuse
+- **Interaction :** Symbiose parfaite, elle l'héberge sur sa puce
+- Le BIOS vit littéralement sur elle
+
+### Avec le Hard Drive 💿
+
+- **Relation :** Coordinatrice des communications
+- **Interaction :** "Je vais te connecter à tout le monde via mes connecteurs SATA"
+- Facilite toutes ses communications avec les autres
+
+## ⚙️ Utilité dans le groupe
+
+- **Rôle principal :** Coordinatrice centrale et nourrice
     
-2. **Distribue l’alimentation électrique**
+- **Responsabilités :**
     
-3. **Permet la communication entre les composants** via différents **bus**
+    - Héberger physiquement tous les composants principaux
+    - Distribuer l'alimentation électrique à chacun
+    - Faciliter toutes les communications inter-composants
+    - Gérer les connexions avec les périphériques externes
+    - Maintenir la stabilité structurelle du système
+- **Capacités spéciales :**
     
-4. Contient des **circuits de contrôle**, **firmwares**, et parfois des **périphériques intégrés**
+    - Réseau de communication (bus système)
+    - Distribution d'énergie multi-voltage
+    - Interfaces multiples (USB, réseau, audio, etc.)
+    - Support de différentes générations de composants
+    - Gestion thermique du système
+- **Faiblesses :**
     
-
----
-
-## ⚡ Fournit-elle l’électricité ?
-
-### ✅ **Elle distribue l’électricité**
-
-- La **source d’alimentation (PSU)** est **externe à la carte mère**.
-    
-- Le **PSU** se connecte à la carte mère via des **connecteurs 24 pins (ATX)** et **CPU 8 pins**.
-    
-- La carte mère **redirige cette électricité** vers les composants (CPU, RAM, ventilateurs, etc.) via des **régulateurs de tension** appelés **VRM (Voltage Regulator Module)**.
-    
-
-### ⚠️ Mais :
-
-> **Elle ne génère pas elle-même le courant**. Elle agit comme un **distributeur et régulateur**.
-
----
-
-## 🔧 Fonctions principales détaillées
-
-### 1. **Distribution d’énergie**
-
-- Via des pistes en cuivre + VRMs :
-    
-    - CPU : reçoit une tension régulée (ex : 1.2V, 1.4V…)
-        
-    - RAM, chipset, ports PCIe, etc. reçoivent ce qu’ils demandent.
-        
-- Gère les **protections électriques** (surtension, court-circuit).
-    
-
----
-
-### 2. **Connexion physique des composants**
-
-- Prises (sockets) pour :
-    
-    - **CPU** (ex : LGA 1700)
-        
-    - **RAM** (slots DIMM)
-        
-    - **Cartes d’extension** (PCIe pour GPU, cartes son, etc.)
-        
-    - **Stockage** (SATA, NVMe)
-        
-    - **Alimentation** (24-pin, 8-pin CPU, etc.)
-        
-
----
-
-### 3. **Communication via des bus**
-
-- **Bus mémoire** : CPU ↔ RAM
-    
-- **Bus PCI Express (PCIe)** : CPU ↔ GPU, SSD, cartes d’extension
-    
-- **SATA / NVMe** : CPU/chipset ↔ SSD/HDD
-    
-- **USB / Ethernet / Audio** : Périphériques ↔ chipset
-    
-
-> La carte mère agit comme un **hub** qui connecte et synchronise tout cela.
-
-
-## 🧬**Bonus :Comment le CPU communique avec la RAM et les périphériques à bas niveau**
-
-Voici le niveau le plus bas, le **cœur du fonctionnement d’un ordinateur**. À ce stade, on parle de **transferts de données binaires** entre les composants par des **bus physiques**, des **registres**, et des **interruptions**.
-
+    - Point de défaillance critique (si elle tombe, tout s'arrête)
+    - Peut devenir obsolète avec le temps
+    - Parfois limitée par sa conception initiale
+    - Sensible aux surtensions et à l'électricité statique
 ---
 
 ### 🛣️ A. **Les Bus**
